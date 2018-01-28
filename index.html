@@ -1,19 +1,28 @@
-<html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
     <meta name="title" content="Saquib Ali Khan						   ">
     <meta itemprop="name" content="Saquib Ali Khan">
     <meta property="og:title" content="Saquib Ali Khan">
-    <meta name="description" content="Personal Website of Saquib Ali khan. Contains brief information about academics, experiences, projects and extracurricular activitites of Saquib Ali Khan.">
-    <meta itemprop="description" content="Personal Website of Saquib Ali Khan. Contains brief information about academics, experiences, projects and extracurricular activitites of Saquib Ali Khan.">
-    <meta id="meta-tag-description" property="og:description" content="Personal Website of Saquib Ali Khan. Contains brief information about academics, experiences, projects and extracurricular activitites of Saquib Ali Khan.">
+    <meta name="description"
+          content="Personal Website of Saquib Ali khan. Contains brief information about academics, experiences, projects and extracurricular activitites of Saquib Ali Khan.">
+    <meta itemprop="description"
+          content="Personal Website of Saquib Ali Khan. Contains brief information about academics, experiences, projects and extracurricular activitites of Saquib Ali Khan.">
+    <meta id="meta-tag-description" property="og:description"
+          content="Personal Website of Saquib Ali Khan. Contains brief information about academics, experiences, projects and extracurricular activitites of Saquib Ali Khan.">
     <title>Saquib Ali Khan</title>
-  
-    <meta property="og:image" content="https://sites.google.com/site/sumitbinnani/_/rsrc/1444665270843/home/261461_1830874825496_487515_n.jpg">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <meta itemprop="image"
+          content="https://sites.google.com/site/sumitbinnani/_/rsrc/1444665270843/home/261461_1830874825496_487515_n.jpg">
+    <meta property="og:image"
+          content="https://sites.google.com/site/sumitbinnani/_/rsrc/1444665270843/home/261461_1830874825496_487515_n.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="css/stylesheet.css" rel="stylesheet">
     <link href="css/project.css" rel="stylesheet">
@@ -58,11 +67,27 @@
 </head>
 <body>
 
+<div id="loader"
+     style="width:100%; height:100%; position: fixed; background-color:rgba(164, 86, 20, 0.65); z-index:1000">
+    <div class='container'>
+        <div class='loader'>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--text'></div>
+            <div class='updateStatus'></div>
+        </div>
+    </div>
+</div>
 
 <nav id="navigationBar" class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -78,7 +103,8 @@
                 <!--<li><a href="#skills">Skills</a></li>-->
                 <li><a href="#workExperience">Work Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
-                
+                <li><a href="#pors">Positions of Responsibilities</a></li>
+                <li><a href="#extraCurriculars">Extra Curriculars</a></li>
             </ul>
         </div>
     </div>
@@ -134,7 +160,7 @@
                 <h2>Biography</h2>
                 <p>
                     I am a final year Undergrad at Jamia Millia Islamia University, New Delhi, pursuing bachelors in 
-					Computer Science &amp; Engineering.
+					Computer Science & Engineering.
                 </p>
                 <p>
                     Interested in technologies... Like to explore Data Science and Deep Learning in my free
@@ -162,106 +188,22 @@
             <div class="page-header">
                 <h1><i class="tilt fa fa-graduation-cap"></i> Academics </h1>
             </div>
-            <div id="education" class="row row-eq-height" data-bind="template: { name: 'education-template', foreach: education }">
-    <div class="col-xs-12 col-sm-6 col-lg-4">
-        <div class="box">
-            <div class="image"><i class="fa fa-university"></i></div>
-            <div class="info" style="height: 168px;">
-                <h3 class="title" data-bind="text: gradDegree">Bachelors (B.Tech)</h3>
-                <p style="margin-top:0px" data-bind="text: stream">Computer Science &amp; Engineering</p>
-                <p class="institution" data-bind="text: institution">Jamia Millia Islamia University, New Delhi</p>
-                
-            </div>
-            <div class="space"></div>
-        </div>
-    </div>
-
-    <div class="col-xs-12 col-sm-6 col-lg-4">
-        <div class="box">
-            <div class="image"><i class="fa fa-university"></i></div>
-            <div class="info" style="height: 168px;">
-                <h3 class="title" data-bind="text: gradDegree">Class XII (10+2 Equivalent)</h3>
-                <p style="margin-top:0px" data-bind="text: stream">All India Senior Secondary School Certificate Examination</p>
-                <p class="institution" data-bind="text: institution">Kendriya Vidyalaya Aliganj, Lucknow, India</p>
-               
-            </div>
-            <div class="space"></div>
-        </div>
-    </div>
-
-    <div class="col-xs-12 col-sm-6 col-lg-4">
-        <div class="box">
-            <div class="image"><i class="fa fa-university"></i></div>
-            <div class="info" style="height: 168px;">
-                <h3 class="title" data-bind="text: gradDegree">Class X (10th Equivalent)</h3>
-                <p style="margin-top:0px" data-bind="text: stream">All India Secondary School Certificate Examination</p>
-                <p class="institution" data-bind="text: institution">Kendriya Vidyalaya Aliganj, Lucknow, India</p>
-               
-            </div>
-            <div class="space"></div>
-        </div>
-    </div>
-</div>
+            <div id="education" class="row row-eq-height"
+                 data-bind="template: { name: 'education-template', foreach: education }"></div>
 
 
             <div class="row row-eq-height">
-                <div id="coursework" class="col-xs-12 col-sm-6 col-lg-4 box" data-bind="template: {name: 'academics-template', data: {array: coursework,  header: 'Coursework', image: 'fa fa-book'}}">
-    <div class="image"><i data-bind="css: $data.image" class="fa fa-book"></i></div>
-    <div class="info" style="height: 518px;">
-        <h3 class="title" data-bind="text: $data.header">Coursework</h3>
-        <ul data-bind="foreach: $data.array">
-            <li data-bind="html: $data"><b>Computer Science (Major)</b>: Data Structures, Discrete Mathematics, Analysis &amp; Design of Algorithms, Operating Systems, Computer Networks, Parallel &amp; Distributed Computing, Database Systems, System Softwares, Automata Theory(TOC), Language Processors, Compiler Design, Software Engineering, Artificial Intelligence (AI), Data Mining, Object Oriented Programming (OOPs), Computer Architecture, Microprocessors </li>
-        
-            <li data-bind="html: $data"><b>Mathematics</b>: Muti-variable Calculus, Vector Calculus, Matrices, Linear Algebra, Complex Number, Probability and Statistics, Optimization</li>
-        
-            <li data-bind="html: $data"><b>Lab work</b>: Programming lab, Advanced programming Lab, Linux Lab, Linux Utility Lab, Data Structures Lab, System Software Lab, Advanced Data Structures Lab, Microprocessor Lab, Compilers Lab, Operating Systems Lab, DBMS Lab, Computer Networks Lab, OOPs Lab, Microprocessors Lab, Digital Logic Lab </li>
-        </ul>
-    </div>
-</div>
-                <div id="schAchievements" class="col-xs-12 col-sm-6 col-lg-4 box" data-bind="template: {name: 'academics-template', data: {array: schAchievements,  header: 'Scholastic Achievements',  image: 'fa fa-trophy'}}">
-    <div class="image"><i data-bind="css: $data.image" class="fa fa-trophy"></i></div>
-    <div class="info" style="height: 518px;">
-        <h3 class="title" data-bind="text: $data.header">Achievements</h3>
-        <ul data-bind="foreach: $data.array">
-            <li data-bind="html: $data">Awarded <b>NLP Lab Research Internship in Indian Institute of Technology(IIT)-Patna</b> in 2017 for ard. two months of Research Internship.</li>
-        
-            <li data-bind="html: $data">Awarded <b>Deloitte Innovation Award, worth Rs. 10,000(Indian Currency) - 2017,</b> by Indian Space Research Organisation (ISRO), Govt. of India. </li>
-			
-			<li data-bind="html: $data">Awarded <b>CIE Innovation award, worth Rs. 5000(Indian Currency).</b>, awarded by CIE(Center for Innovation &amp; Entrepreneurship), Jamia Millia Islamia for significant contribution to department research, 2016. </li>
-        
-            <li data-bind="html: $data">Awarded <b>Certificate for Proficiency in Data Structures &amp; Algorithms</b>, by CodeChef</li>
-        
-            <li data-bind="html: $data">Consistently among <b>top ten students of the class</b> for all seven semesters till now</li>
-        
-            <li data-bind="html: $data">Participated in CodeFest-Linguipedia-2017,  IIT-BHU , with &#8203;<b>Rank 13 on LeaderBoard (of Total 475 participants).</b></li>
-        
-            <li data-bind="html: $data">Got School Gold Medal Award in &#8203;National Cyber Olympiad - 2007, with Rank 8 in my City </li>
-        </ul>
-    </div>
-</div>
-                <div id="certifications" class="col-xs-12 col-sm-6 col-lg-4 box" data-bind="template: {name: 'academics-template', data: {array: certifications,  header: 'Selected Online Courses / Certifications',  image: 'fa fa-book'}}">
-    <div class="image"><i data-bind="css: $data.image" class="fa fa-book"></i></div>
-    <div class="info" style="height: 518px;">
-        <h3 class="title" data-bind="text: $data.header">Selected Online Courses</h3>
-        <ul data-bind="foreach: $data.array">
-            <li data-bind="html: $data"><b>CS-224n Deep Learning for Natural Language Processing</b> <i>(ongoing)</i>, by Richard Soccer, Stanford</li>
-        
-            <li data-bind="html: $data"><b>CS-231n Convolutional Neural Networks for Visual Recognition</b>, by Andrej Karpathy, Stanford </li>
-        
-            <li data-bind="html: $data"><b>Kaggle python tutorial on Machine Learning</b>, Data Camp</li>
-			
-			<li data-bind="html: $data"><b>CS-162, Introduction to Operating Systems &amp; System Programming</b>, UC Berkeley, Youtube UC Berkeley Education Archive</li>
-        
-            <li data-bind="html: $data"><b>Introduction to Machine Learning</b>, by Prof. Andrew Ng, Stanford University, Coursera</li>
-        
-            <li data-bind="html: $data"><b>Introduction to Computer Science &amp; Programming in python</b>, by Eric Grimmson (MIT), Edx</li>
-        
-            <li data-bind="html: $data"><b>CS50 at Harvard</b>, by David J. Malan, Harvard, cs50.tv</li>
-        
-        </ul>
-    </div>
-</div>
+                <div id="coursework" class="col-xs-12 col-sm-6 col-lg-4 box"
+                     data-bind="template: {name: 'academics-template', data: {array: coursework,  header: 'Coursework', image: 'fa fa-book'}}">
+                </div>
+                <div id="schAchievements" class="col-xs-12 col-sm-6 col-lg-4 box"
+                     data-bind="template: {name: 'academics-template', data: {array: schAchievements,  header: 'Scholastic Achievements',  image: 'fa fa-trophy'}}">
+                </div>
+                <div id="certifications" class="col-xs-12 col-sm-6 col-lg-4 box"
+                     data-bind="template: {name: 'academics-template', data: {array: certifications,  header: 'Selected Online Courses / Certifications',  image: 'fa fa-book'}}">
+                </div>
             </div>
+
 
         </div>
     </div>
@@ -290,95 +232,7 @@
             <div class="page-header">
                 <h1>Experience</h1>
             </div>
-            <ul class="timeline" data-bind="template: { name: 'workExp-template', foreach: workExp }">
-    <li data-bind="css: $index()%2==0 ? '' : 'timeline-inverted'">
-        <a class="btn btn-warning timeline-badge"><i data-bind="css: type=='Research' ? 'fa fa-flask': type=='Teaching'? 'fa fa-book':'fa fa-briefcase'" class="fa fa-book"></i></a>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <p data-bind="text:jobTitle" style="display:inline; font-weight:900">Mentor for team of ten Junior Students - Department Project</p>,
-                <p style="display:inline; font-weight:700" data-bind="html: company"> Deptt. of Computer Science &amp; Engineering, Jamia Millia Islamia, New Delhi</p>
-                <p>
-                    <small class="text-muted"><!--ko text: startDate-->September 2017<!--/ko--> - <!--ko text: endDate-->Present<!--/ko--> —
-                        <!--ko text: location-->New Delhi, India<!--/ko--></small>
-                </p>
-            </div>
-            <div class="timeline-body">
-                <p data-bind="text: jobDesc"></p>
-            </div>
-        </div>
-    </li>
-
-    <li data-bind="css: $index()%2==0 ? '' : 'timeline-inverted'" class="timeline-inverted">
-        <a class="btn btn-warning timeline-badge"><i data-bind="css: type=='Research' ? 'fa fa-flask': type=='Teaching'? 'fa fa-book':'fa fa-briefcase'" class="fa fa-flask"></i></a>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <p data-bind="text:jobTitle" style="display:inline; font-weight:900">Team Lead, Department Project with Indian Space Research Organisation (ISRO)</p>,
-                <p style="display:inline; font-weight:700" data-bind="html: company">Persistent Labs-Bengaluru, ISRO Satellite Center-Bengaluru, Jamia Millia Islamia-New Delhi</p>
-                <p>
-                    <small class="text-muted"><!--ko text: startDate-->August 2017<!--/ko--> - <!--ko text: endDate-->Present<!--/ko--> —
-                        <!--ko text: location-->New Delhi, India<!--/ko--></small>
-                </p>
-            </div>
-            <div class="timeline-body">
-                <p data-bind="text: jobDesc"></p>
-            </div>
-        </div>
-    </li>
-
-    <li data-bind="css: $index()%2==0 ? '' : 'timeline-inverted'">
-        <a class="btn btn-warning timeline-badge"><i data-bind="css: type=='Research' ? 'fa fa-flask': type=='Teaching'? 'fa fa-book':'fa fa-briefcase'" class="fa fa-book"></i></a>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <p data-bind="text:jobTitle" style="display:inline; font-weight:900">NLP Lab Research Intern - Indian Institute of Technology (IIT)Patna</p>,
-                <p style="display:inline; font-weight:700" data-bind="html: company">IIT Patna</p>
-                <p>
-                    <small class="text-muted"><!--ko text: startDate-->June-2017<!--/ko--> - <!--ko text: endDate-->July-2017<!--/ko--> —
-                        <!--ko text: location-->Patna, India<!--/ko--></small>
-                </p>
-            </div>
-            <div class="timeline-body">
-                <p data-bind="text: jobDesc">Worked on Complex Question Answering using sentence labelling task with deep learning.</p>
-            </div>
-        </div>
-    </li>
-
-    <li data-bind="css: $index()%2==0 ? '' : 'timeline-inverted'" class="timeline-inverted">
-        <a class="btn btn-warning timeline-badge"><i data-bind="css: type=='Research' ? 'fa fa-flask': type=='Teaching'? 'fa fa-book':'fa fa-briefcase'" class="fa fa-book"></i></a>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <p data-bind="text:jobTitle" style="display:inline; font-weight:900">Team Lead</p>,
-                <p style="display:inline; font-weight:700" data-bind="html: company">Programming Club, Research Internship at CIE (Center for Innovation &amp; Entrepreneurship), JMI </p>
-                <p>
-                    <small class="text-muted"><!--ko text: startDate-->June 2016<!--/ko--> - <!--ko text: endDate-->December-2016<!--/ko--> —
-                        <!--ko text: location-->CIE (Center for Innovation &amp; Entrepreneurship), JMI &amp; Deptt. of Computer Engineering, JMI<!--/ko--></small>
-                </p>
-            </div>
-            <div class="timeline-body">
-                <p data-bind="text: jobDesc">Led a team of five students for contributing in two department research projects</p>
-            </div>
-        </div>
-    </li>
-
-    <li data-bind="css: $index()%2==0 ? '' : 'timeline-inverted'">
-        <a class="btn btn-warning timeline-badge"><i data-bind="css: type=='Research' ? 'fa fa-flask': type=='Teaching'? 'fa fa-book':'fa fa-briefcase'" class="fa fa-flask"></i></a>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <p data-bind="text:jobTitle" style="display:inline; font-weight:900">Instructor at Hashes, JMI</p>,
-                <p style="display:inline; font-weight:700" data-bind="html: company">Hashes, freshman orientation group, Jamia Millia Islamia, New Delhi</p>
-                <p>
-                    <small class="text-muted"><!--ko text: startDate-->November-2015<!--/ko--> - <!--ko text: endDate-->February-2016<!--/ko--> —
-                        <!--ko text: location-->New Delhi, India<!--/ko--></small>
-                </p>
-            </div>
-            <div class="timeline-body">
-                <p data-bind="text: jobDesc">Hashes is a freshman orientation group where I initially prepared assignments for Introduction to python series, also instructed in "Introduction to basics of Machine Learning" series.</p>
-            </div>
-        </div>
-    </li>
-
-  
-
-</ul>
+            <ul class="timeline" data-bind="template: { name: 'workExp-template', foreach: workExp }"></ul>
         </div>
     </div>
 </div>
@@ -392,16 +246,16 @@
             <div class="col-md-4">
                 <div class="bs-callout bs-callout-info">
                     <i class="fa fa-bar-chart fa-3x" aria-hidden="true"></i>
-                    <h4>Deep Learning, Machine Learning</h4>
-                    <h4>Artificial Intelligence</h4>
+                    <h4>Machine Learning, Artificial Intelligence</h4>
+                    <h4>Data Science</h4>
                     <h4><a target="_blank" href="https://github.com/saquib-ali-khan"><span class="label label-info">Click Here</span></a></h4>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="bs-callout bs-callout-info">
                     <i class="fa fa-database fa-3x" aria-hidden="true"></i>
-                    <h4>Databases, Data Frameworks</h4>
-                   
+                    <h4>Databases, Development</h4>
+             
                     <h4><a target="_blank" href="https://github.com/saquib-ali-khan"><span class="label label-info">Click Here</span></a></h4>
                 </div>
             </div>
@@ -409,7 +263,7 @@
                 <div class="bs-callout bs-callout-info">
                     <i class="fa fa-cogs fa-3x" aria-hidden="true"></i>
                     <h4>Social Network Analysis</h4>
-                 
+                    
                     <h4><a target="_blank" href="https://github.com/saquib-ali-khan/Information-Diffusion-and-node-ranking-in-Social-Networks"><span class="label label-info">Click Here</span></a></h4>
 
                 </div>
@@ -419,7 +273,37 @@
 
 </div>
 
+<div id="pors">
+    <div class="effect1" style="background-color:rgba(50,50,50,0.5)"></div>
+    <div style="position:relative; padding:50px">
+        <div class="container-fluid">
+            <div class="page-header">
+                <h1> Positions of Responsibilties </h1>
+            </div>
+            <div class="row row-eq-height" data-bind="template: { name: 'por-template', foreach: pors }"></div>
+        </div>
+    </div>
+</div>
 
+<div id="extraCurriculars">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="page-header"><h1>Extra Curriculars</h1></div>
+            <div class="col-md-5 col-md-offset-1" id="activities">
+                <h2>Activities</h2>
+                <ul data-bind="foreach: activities">
+                    <li data-bind="html: $data">Loading...</li>
+                </ul>
+            </div>
+            <div class="col-md-5" id="achievements">
+                <h2>Achievements</h2>
+                <ul data-bind="foreach: achievements">
+                    <li data-bind="html: $data">Loading...</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="container-fluid" style="background:black; color:white !important;">
     <div class="row text-center" style="padding-top:10px">
@@ -429,14 +313,14 @@
         </div>
         <div class="col-sm-3 col-xs-6">
             <p><span class="glyphicon glyphicon-home"></span> Location</p>
-            <p style="margin-bottom:2px;">SRK Hostel, Jamia Milli University, Jamia Nagar, New Delhi</p>
+            <p style="margin-bottom:2px;">SRK Hostel, Jamia Millia Islamia University, Jamia Nagar, New Delhi-25</p>
         </div>
         <div class="col-sm-3 col-xs-6">
             <p><span class="glyphicon glyphicon-send"></span> E-mail</p>
             <p style="margin-bottom:2px;">alikhansaquib@gmail.com</p>
         </div>
         <div class="col-sm-3 col-xs-6">
-            <p><span class="glyphicon glyphicon-leaf"> Web</span></p>
+            <p><span class="glyphicon glyphicon-leaf"> Web</p>
             <p style="margin-bottom:2px;"><a href="http://saquib-ali-khan.github.io">http://saquib-ali-khan.github.io</a></p>
         </div>
     </div>
@@ -471,7 +355,7 @@
                 <h3 class="title" data-bind="text: gradDegree"></h3>
                 <p style="margin-top:0px" data-bind="text: stream"></p>
                 <p class="institution" data-bind="text: institution"></p>
-                <p class="score"> Score: <!--ko text: score--><!--/ko--></p>
+                
             </div>
             <div class="space"></div>
         </div>
@@ -486,7 +370,7 @@
             <li data-bind="html: $data">&nbsp;</li>
         </ul>
     </div>
-</script>
+</script>																						
 
 <script id="skill-template" type="text/html">
     <li>
@@ -510,21 +394,22 @@
             <div>
                 <div class="tile-footer text-center" style="padding:4px;">
                     <p class="title" data-bind="text: $data.post" style="margin-bottom:5px;"></p>
-                    <p data-bind="text: $data.organization"></p>
+                    <p data-bind="html: $data.organization"></p>
                 </div>
                 <div class="tile-header"><p data-bind="text: $data.duration"></p>
-                    <p data-bind="text: $data.description"></p></div>
+                    <p data-bind="html: $data.description"></p></div>
             </div>
         </div>
     </div>
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
 <script src="js/jquery.matchHeight-min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js"></script>
 <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
 <script src="js/script.js"></script>
 
-
-
-</body></html>
+</body>
+</html>
